@@ -1,5 +1,5 @@
-import { useAppDispatch, useAppSelector } from '../hooks/redux';
-import { userSlice } from '../store/reducers/UserSlice';
+import { useAppDispatch, useAppSelector } from '../../hooks/redux';
+import { userSlice } from '../../store/reducers/UserSlice';
 
 export const SearchInput = () => {
   const { userName } = useAppSelector((state) => state.userReducer);

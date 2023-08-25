@@ -1,6 +1,6 @@
-import { useAppDispatch } from '../hooks/redux';
-import { IGithubUser } from '../models/models';
-import { userSlice } from '../store/reducers/UserSlice';
+import { useAppDispatch } from '../../hooks/redux';
+import { IGithubUser } from '../../models/models';
+import { userSlice } from '../../store/reducers/UserSlice';
 
 interface ISearchData {
   isLoading: boolean;

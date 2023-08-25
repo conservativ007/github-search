@@ -3,10 +3,12 @@ import { setupListeners } from '@reduxjs/toolkit/query';
 import { gitHubApi } from './github/gitHubApi';
 
 import userReducer from './reducers/UserSlice';
+import githubReducer from './github/github.slice';
 
 const rootReducer = combineReducers({
   [gitHubApi.reducerPath]: gitHubApi.reducer,
   userReducer,
+  githubReducer,
 });
 
 export const setupStore = () => {

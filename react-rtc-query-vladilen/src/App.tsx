@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { FavoritesPage } from './pages/FavoritesPage';
-import { Navigation } from './components/Navigation';
+import { Navigation } from './components/navigation/Navigation';
 
 function App() {
   return (
