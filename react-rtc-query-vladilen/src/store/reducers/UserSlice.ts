@@ -7,7 +7,7 @@ interface UserState {
 }
 
 const initialState: UserState = {
-  userName: 'conservativ',
+  userName: '',
   targetUserName: '',
   dropdownUsers: false,
 };
